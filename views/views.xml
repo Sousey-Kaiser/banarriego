@@ -1,0 +1,63 @@
+<odoo>
+  <data>
+
+
+
+    <!-- explicit list view definition -->
+<!--
+    <record model="ir.ui.view" id="h4o_banariego.list">
+      <field name="name">h4o_banariego list</field>
+      <field name="model">h4o_banariego.h4o_banariego</field>
+      <field name="arch" type="xml">
+        <tree>
+          <field name="name"/>
+          <field name="value"/>
+          <field name="value2"/>
+        </tree>
+      </field>
+    </record>
+-->
+
+    <!-- actions opening views on models -->
+<!--
+    <record model="ir.actions.act_window" id="h4o_banariego.action_window">
+      <field name="name">h4o_banariego window</field>
+      <field name="res_model">h4o_banariego.h4o_banariego</field>
+      <field name="view_mode">tree,form</field>
+    </record>
+-->
+
+    <!-- server action to the one above -->
+<!--
+    <record model="ir.actions.server" id="h4o_banariego.action_server">
+      <field name="name">h4o_banariego server</field>
+      <field name="model_id" ref="model_h4o_banariego_h4o_banariego"/>
+      <field name="state">code</field>
+      <field name="code">
+        action = {
+          "type": "ir.actions.act_window",
+          "view_mode": "tree,form",
+          "res_model": model._name,
+        }
+      </field>
+    </record>
+-->
+
+    <!-- Top menu item -->
+<!--
+    <menuitem name="h4o_banariego" id="h4o_banariego.menu_root"/>
+-->
+    <!-- menu categories -->
+<!--
+    <menuitem name="Menu 1" id="h4o_banariego.menu_1" parent="h4o_banariego.menu_root"/>
+    <menuitem name="Menu 2" id="h4o_banariego.menu_2" parent="h4o_banariego.menu_root"/>
+-->
+    <!-- actions -->
+<!--
+    <menuitem name="List" id="h4o_banariego.menu_1_list" parent="h4o_banariego.menu_1"
+              action="h4o_banariego.action_window"/>
+    <menuitem name="Server to list" id="h4o_banariego" parent="h4o_banariego.menu_2"
+              action="h4o_banariego.action_server"/>
+-->
+  </data>
+</odoo>

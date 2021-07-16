@@ -1,0 +1,212 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+<template id="snippet contact" inherit_id="website.snippets">
+  <xpath expr="//div[@id='snippet_structure']/div[hasclass('o_panel_header')]" position="before">
+    <div class="o_panel_body">
+    <t t-snippet="h4o_banariego.bana_contact" t-thumbnail="/h4o_banariego/static/src/img/logo_web_banarriego.png"/>
+    </div>
+  </xpath>
+</template>
+
+<!-- TEMPLATE BANARIEGO DE PAGINA DE Contactos -->
+<template id="bana_contact" name="Contactos Banariego"> 
+<!-- cabezera bg -->
+    <section class="oe_img_bg pt96 pb88 fade-up oe_custom_bg aos-init" data-name="Title" style="background-image: url(&quot;/h4o_banariego/static/src/img/bg_banner_nosotros.jpg&quot;); background-position: 50.28% 11.6%;" data-aos="fade-up">
+        <div class="container">
+          <div class="row s_nb_column_fixed">
+            <div class="col-lg-12 s_title pb0" style="text-align: center;">
+              <h4 class="te_s_title_default" data_aos_ept="s_title_default">
+                <font style="color: rgb(255, 255, 255); font-size: 50px;">Contactos</font>
+              </h4>
+            </div>
+          </div>
+        </div>
+    </section>
+
+    <div class="separate"></div>
+<!-- cabezera bg -->
+
+        <section class="oe_structure" data-name="Style 1"/>
+        <section class="container mt32 mb32 te_box_shadow" data-name="Style 1">
+          <div class="row">
+            <div class="col-lg-8 te_company_form">
+              <div class="oe_structure">
+                <div>
+                  <h1 class="mb16 mt16 o_default_snippet_text">Contáctenos</h1>
+                </div>
+                <section class="s_text_block te_contactus_text_block">
+                  <div class="container">
+                    <div class="row">
+                      <div class="col-lg-12">
+                        <p class="o_default_snippet_text">
+                                                                Contáctenos sobre cualquier cosa relacionada con nuestra empresa o nuestros servicios.<br/>
+                                                                Haremos todo lo posible por darle respuesta a la brevedad.
+                                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </section>
+              </div>
+              <div class="form_bana">
+                <form id="contactus_form" action="/website_form/" method="post" data-model_name="mail.mail" class="s_website_form container-fluid mt32 o_fake_not_editable" enctype="multipart/form-data" data-success_page="/contactus-thank-you">
+                  <div class="form-group row form-field o_website_form_custom o_website_form_required_custom o_fake_not_editable" data-model_name="mail.mail" data-success_page="/contactus-thank-you">
+                    <div class="col-lg-3 col-md-4">
+                      <label class="col-form-label o_default_snippet_text o_fake_editable" for="Your Name">Your Name</label>
+                    </div>
+                    <div class="col-lg-7 col-md-8">
+                      <input type="text" class="form-control o_website_form_input" name="Your Name" placeholder="Ex: John Doe" required=""/>
+                    </div>
+                  </div>
+                  <div class="form-group row form-field o_website_form_custom o_fake_not_editable" data-model_name="mail.mail" data-success_page="/contactus-thank-you">
+                    <div class="col-lg-3 col-md-4">
+                      <label class="col-form-label o_default_snippet_text o_fake_editable" for="Phone Number">Phone Number</label>
+                    </div>
+                    <div class="col-lg-7 col-md-8">
+                      <input type="text" class="form-control o_website_form_input" name="Phone Number"/>
+                    </div>
+                  </div>
+                  <div class="form-group row form-field o_website_form_required_custom o_fake_not_editable" data-model_name="mail.mail" data-success_page="/contactus-thank-you">
+                    <div class="col-lg-3 col-md-4">
+                      <label class="col-form-label o_fake_editable" for="email_from">Email</label>
+                    </div>
+                    <div class="col-lg-7 col-md-8">
+                      <input type="email" class="form-control o_website_form_input" name="email_from" required="" placeholder="Ex: john_doe@domain.com"/>
+                    </div>
+                  </div>
+                  <div class="form-group row form-field o_website_form_custom o_fake_not_editable" data-model_name="mail.mail" data-success_page="/contactus-thank-you">
+                    <div class="col-lg-3 col-md-4">
+                      <label class="col-form-label o_default_snippet_text o_fake_editable" for="Your Company">Your Company</label>
+                    </div>
+                    <div class="col-lg-7 col-md-8">
+                      <input type="text" class="form-control o_website_form_input" name="Your Company"/>
+                    </div>
+                  </div>
+                  <div class="form-group row form-field o_website_form_required_custom o_fake_not_editable" data-model_name="mail.mail" data-success_page="/contactus-thank-you">
+                    <div class="col-lg-3 col-md-4">
+                      <label class="col-form-label o_default_snippet_text o_fake_editable" for="subject">Subject</label>
+                    </div>
+                    <div class="col-lg-7 col-md-8">
+                      <input type="text" class="form-control o_website_form_input" name="subject" required=""/>
+                    </div>
+                  </div>
+                  <div class="form-group row form-field o_website_form_custom o_website_form_required_custom o_fake_not_editable" data-model_name="mail.mail" data-success_page="/contactus-thank-you">
+                    <div class="col-lg-3 col-md-4">
+                      <label class="col-form-label o_default_snippet_text o_fake_editable" for="Your Question">Your Question</label>
+                    </div>
+                    <div class="col-lg-7 col-md-8">
+                      <textarea class="form-control o_website_form_input" name="Your Question" required=""/>
+                    </div>
+                  </div>
+                  <div class="row form-group form-field d-none">
+                    <div class="col-lg-3 col-md-4">
+                      <label class="col-form-label o_fake_editable" for="email_to">
+                    
+                </label>
+                    </div>
+                    <div class="col-lg-7 col-md-8">
+                      <input type="text" class="form-control o_website_form_input" name="email_to" value="sousey.gatay@gmail.com"/>
+                    </div>
+                  </div>
+                  <div class="form-group row">
+                    <div class="offset-lg-3 offset-md-4 col-md-8 col-lg-7">
+                      <a href="#" class="btn btn-primary btn-lg o_website_form_send te_theme_button o_default_snippet_text">
+                                        Send
+                                    </a>
+                      <span id="o_website_form_result"/>
+                    </div>
+                  </div>
+                </form>
+              </div>
+            </div>
+            <div class="col-lg-4 te_company_details te_contactus2_c_details">
+              <div>
+                <h2 class="mb16 mt16">Ubicanos</h2>
+              </div>
+              <address itemscope="itemscope" itemtype="http://schema.org/Organization">
+                <div>
+                  <address class="mb-0" itemscope="itemscope" itemtype="http://schema.org/Organization">
+                    <div>
+                      <span itemprop="name">BANARIEGO MATRIZ. EL TRIUNFO – PROV. DE GUAYAS Av. 8 de Abril # 200 y Angel Arce, junto a Almacenes Tía.</span>
+                    </div>
+                    <div itemprop="address" itemscope="itemscope" itemtype="http://schema.org/PostalAddress">
+                      <div>
+                        <i class="fa fa-envelope fa-fw" role="img" aria-label="Correo electrónico" title="Correo electrónico"/>
+                        <span itemprop="email">
+                          <span style="display: inline !important; font-size: 14px; text-align: left; text-transform: uppercase;" class="text-gamma">CALLCENTER@BANARIEGO.COM</span>
+                          <br/>
+                        </span>
+                      </div>
+                    </div>
+                  </address>
+                </div>
+                <span class="fa fa-map-marker fa-fw mt16" role="img" aria-label="Dirección" title="Dirección"/>
+                <a target="_BLANK" href="https://maps.google.com/maps?q=%2C++%2C+Ecuador&amp;z=8" data-original-title="" title="" aria-describedby="tooltip177560"> Encuentra Nuestra Matriz</a>
+              </address>
+            </div>
+          </div>
+        </section>
+             
+        <section data-name="Title">
+          <div class="container">
+            <div class="row s_nb_column_fixed">
+              <div class="col-lg-12 s_title" style="text-align: center;">
+                <h4 class="te_s_title_default">Encuentranos en Nuestras Sucursales</h4>
+              </div>
+              <div class="col-lg-12 pt32 pb32">
+                <p class="lead o_default_snippet_text">Lorem ipsum dolor sit amet, eam et reque justo quidam, te est audire
+                persius. Duis meis quas vim ex, ius no oblique phaedrum.</p>
+              </div>
+            </div>
+          </div>
+        </section>
+
+<!-- img_sucursal -->
+        <section class="t_img_hover_1 pb0 pt0">
+            <img class="img-fluid d-block mx-auto" alt="Clarico-Full Image" src="/h4o_banariego/static/src/img/temp_sucursal.jpg" data-original-title="" title="" aria-describedby="tooltip886644"/>
+            <div class="s_btn text-center pt16 pb16" data-name="Button">
+                <a href="#" class="te_theme_button btn btn-outline-alpha" data-original-title="" title="" aria-describedby="tooltip33285">Ir a Sucursales</a>
+            </div>
+        </section>
+<!-- img_sucursal -->
+
+<!-- Slider -->
+        <div id="myCarousel1626164932528" class="s_carousel s_carousel_default carousel slide" data-interval="10000" data-name="Style 4">
+          <ol class="carousel-indicators">
+            <li data-target="#myCarousel1626164932528" data-slide-to="0" class="active"/>
+            <li data-target="#myCarousel1626164932528" data-slide-to="1"/>
+          </ol>
+          <div class="container">
+            <div class="carousel-inner te_arrow_small">
+              <div class="carousel-item te_slider_10_bg oe_custom_bg oe_img_bg pt16 pb16 active" data-name="Slide" style="background-image: url(&quot;/h4o_banariego/static/src/img/ima_contact_1.jpg&quot;);"> 
+                <section class="my-md-5 te_slider_text_content">
+                  <div class="te_slider_heading o_default_snippet_text">Lorem ipsum</div>
+                  <div class="te_slider_main_heading o_default_snippet_text">Lorem ipsum dolor sit amet</div>
+                  <section class="s_btn">
+                    <a href="#" class="btn btn-primary te_theme_button o_default_snippet_text">Know more</a>
+                  </section>
+                </section>
+              </div>
+              <div class="carousel-item te_slider_10_bg oe_custom_bg oe_img_bg pt16 pb16" data-name="Slide" style="background-image: url(&quot;/h4o_banariego/static/src/img/ima_contact_2.jpg&quot;);">
+                <section class="my-md-5 te_slider_text_content">
+                  <div class="te_slider_heading o_default_snippet_text">Lorem ipsum</div>
+                  <div class="te_slider_main_heading o_default_snippet_text">Lorem ipsum dolor sit amet</div>
+                  <section class="s_btn">
+                    <a href="#" class="btn btn-primary te_theme_button o_default_snippet_text">Know more</a>
+                  </section>
+                </section>
+              </div>
+              <div class="carousel-control-prev d-md-none d-flex" data-target="#myCarousel1626164932528" data-slide="prev" role="img" aria-label="Previous" title="Previous">
+                <span class="carousel-control-prev-icon"/>
+                <span class="sr-only o_default_snippet_text">Previous</span>
+              </div>
+              <div class="carousel-control-next d-md-none d-flex" data-target="#myCarousel1626164932528" data-slide="next" role="img" aria-label="Next" title="Next">
+                <span class="carousel-control-next-icon"/>
+                <span class="sr-only o_default_snippet_text">Next</span>
+              </div>
+            </div>
+          </div>
+        </div>
+<!-- Slider -->
+
+  </template>
+</odoo>

@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+<template id="snippet insucursales" inherit_id="website.snippets">
+  <xpath expr="//div[@id='snippet_structure']/div[hasclass('o_panel_header')]" position="before">
+    <div class="o_panel_body">
+    <t t-snippet="h4o_banariego.bana_insucursales" t-thumbnail="/h4o_banariego/static/src/img/logo_web_banarriego.png"/>
+    </div>
+  </xpath>
+</template>
+
+<!-- TEMPLATE BANARIEGO DE PAGINA DE interior sucursales -->
+<template id="bana_insucursales" name="In Sucursales Banariego"> 
+
+      <section class="oe_img_bg pt96 pb88 fade-up oe_custom_bg aos-init" data-name="In Sucursales Banariego" style="background-image: url(&quot;/h4o_banariego/static/src/img/bg_banner_nosotros.jpg&quot;); background-position: 50.28% 11.6%;" data-aos="fade-up">
+        <div class="container">
+          <div class="row s_nb_column_fixed">
+            <div class="col-lg-12 s_title pb0" style="text-align: center;">
+              <h4 class="te_s_title_default" data_aos_ept="s_title_default">
+                <font style="color: rgb(255, 255, 255); font-size: 50px; text-transform: uppercase;">Sucursales</font>
+              </h4>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <div class="separate"></div>
+
+<!-- section-redes-float -->
+  <div class="section_float">
+    <div class="social_float">
+      <ul>
+        <li><a href="#" class="btn_social_float icon_youtube" target="_blank" title="Youtube"/></li>
+        <li><a href="https://www.instagram.com/banariego_cia_ltda/?fbclid=IwAR2pzfnM-NY4fzkZT5Ik9yKnK_38hLl9NZYkqWET8ahNUXPP0ruxwH0r5UI" class="btn_social_float icon_insta" target="_blank" title="Instagram"/></li>
+        <li><a href="https://www.facebook.com/banariego" class="btn_social_float icon_face" target="_blank" title="Facebook"/></li>
+        <li><span>-------------</span></li>
+        <li><p>SIGUENOS</p></li>
+      </ul>
+    </div>
+  </div>
+<!-- section-redes-float -->
+
+<!-- Title_1 -->
+      <section data-name="Title">
+        <div class="container">
+          <div class="row s_nb_column_fixed">
+            <div class="col-lg-12 s_title" style="text-align: center; margin:20px 0;">
+              <h4 class="te_s_title_default">
+                  <font style="font-size: 36px; font-weight: 100;">Provincia del -completar-</font>
+              </h4>
+            </div>
+
+            <div class="pt32 pb32 offset-lg-2 col-lg-8">
+              <p class="lead" style="text-align: center; ">Consulta todas nuestras sucursales</p>
+            </div>
+          </div>
+        </div>
+      </section>
+<!-- Title_1 -->
+
+
+
+
+
+
+
+<!-- linea separador -->
+    <div class="line_separator"> <section class="line"></section> </div>
+<!-- linea separador -->
+
+<!-- pre-footer -->
+      <section class="tree_block pb32 pt32" data-name="Proyectos Banariego">
+        <div class="container te_max_width_3_blocks">
+          <div class="row">
+            <section class="col-md-4 px-lg-4 te_menu_flip_box">
+              <div class="card">
+                <section class="te_service_icon te_menu_flip_box_inner pb48">
+                  <span class="te_three_blocks_icon rounded-circle text-center te_span_icon_block">
+                    <span class="fa align-middle fa-3x te_icon_styling fa-map-marker" data-original-title="" title="" aria-describedby="tooltip459743"/>
+                  </span>
+                </section>
+                <section class="text-center pt-4 card-body">
+                  <section>
+                    <h4 class="te_three_blocks_heading m-4">
+                      <b class="o_default_snippet_text">Ubícanos</b>
+                    </h4>
+                  </section>
+                  <section>
+                    <p class="p-4 pt0 te_three_blocks_content o_default_snippet_text">Matriz, El Triunfo Prov. del Guayas Av. 8 de Abril # 200 y Angel Arce, junto a Almacenes Tía.</p>
+                  </section>
+                </section>
+              </div>
+            </section>
+            <section class="col-md-4 px-lg-4 te_menu_flip_box">
+              <div class="card">
+                <section class="te_service_icon te_menu_flip_box_inner pb48">
+                  <span class="te_three_blocks_icon rounded-circle text-center te_span_icon_block">
+                    <span class="fa align-middle fa-3x te_icon_styling fa-envelope-o" data-original-title="" title="" aria-describedby="tooltip447015"/>
+                  </span>
+                </section>
+                <section class="text-center pt-4 card-body">
+                  <section>
+                    <h4 class="te_three_blocks_heading m-4">
+                      <b class="o_default_snippet_text">Email</b>
+                    </h4>
+                  </section>
+                  <section>
+                    <p class="p-4 pt0 te_three_blocks_content o_default_snippet_text">ventas@banariego.com callcenter@banariego.com coordinaciontaller@banariego.com</p>
+                  </section>
+                </section>
+              </div>
+            </section>
+            <section class="col-md-4 px-lg-4 te_menu_flip_box">
+              <div class="card">
+                <section class="te_service_icon te_menu_flip_box_inner pb48">
+                  <span class="te_three_blocks_icon rounded-circle text-center te_span_icon_block">
+                    <span class="fa align-middle fa-3x te_icon_styling fa-phone"/>
+                  </span>
+                </section>
+                <section class="text-center pt-4 card-body">
+                  <section>
+                    <h4 class="te_three_blocks_heading m-4">
+                      <b class="o_default_snippet_text">Teléfono</b>
+                    </h4>
+                  </section>
+                  <section>
+                    <p class="p-4 pt0 te_three_blocks_content o_default_snippet_text">042010190 / 042010072 / 042010726 Ext.: 100 - 101 - 102 - 103</p>
+                  </section>
+                </section>
+              </div>
+            </section>
+          </div>
+        </div>
+      </section>
+<!-- pre-footer -->
+
+</template> 
+
+</odoo>

@@ -1,0 +1,389 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+<template id="snippet servicios" inherit_id="website.snippets">
+  <xpath expr="//div[@id='snippet_structure']/div[hasclass('o_panel_header')]" position="before">
+    <div class="o_panel_body">
+    <t t-snippet="h4o_banariego.bana_servicios" t-thumbnail="/h4o_banariego/static/src/img/logo_web_banarriego.png"/>
+    </div>
+  </xpath>
+</template>
+
+<!-- TEMPLATE BANARIEGO DE PAGINA DE SERVICIOS -->
+<template id="bana_servicios" name="Servicios Banariego"> 
+
+      <section class="oe_img_bg pt96 pb88 fade-up oe_custom_bg aos-init" data-name="Servicios Banariego" style="background-image: url(&quot;/h4o_banariego/static/src/img/bg_banner_nosotros.jpg&quot;); background-position: 50.28% 11.6%;" data-aos="fade-up">
+        <div class="container">
+          <div class="row s_nb_column_fixed">
+            <div class="col-lg-12 s_title pb0" style="text-align: center;">
+              <h4 class="te_s_title_default" data_aos_ept="s_title_default">
+                <font style="color: rgb(255, 255, 255); font-size: 50px;">SERVICIOS</font>
+              </h4>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <div class="separate"></div>
+
+<!-- section-redes-float -->
+  <div class="section_float">
+    <div class="social_float">
+      <ul>
+        <li><a href="#" class="btn_social_float icon_youtube" target="_blank" title="Youtube"/></li>
+        <li><a href="https://www.instagram.com/banariego_cia_ltda/?fbclid=IwAR2pzfnM-NY4fzkZT5Ik9yKnK_38hLl9NZYkqWET8ahNUXPP0ruxwH0r5UI" class="btn_social_float icon_insta" target="_blank" title="Instagram"/></li>
+        <li><a href="https://www.facebook.com/banariego" class="btn_social_float icon_face" target="_blank" title="Facebook"/></li>
+        <li><span>-------------</span></li>
+        <li><p>SIGUENOS</p></li>
+      </ul>
+    </div>
+  </div>
+<!-- section-redes-float -->
+
+<!-- Title_1 -->
+      <div class="oe_structure" data-name="Style 1"/>
+      <section data-name="Title">
+        <div class="container">
+          <div class="row s_nb_column_fixed">
+            <div class="col-lg-12 s_title" style="text-align: center; margin:20px 0;">
+              <h4 class="te_s_title_default">
+                <font style="font-size: 36px;">1.&amp;nbsp;</font>
+                <span style="font-weight: normal;">
+                  <font style="font-size: 36px; font-weight: 100;">SERVICIO TÉCNICO</font>
+                </span>
+              </h4>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="s_text_block" data-name="Text block">
+        <div class="container">
+          <div class="row">
+            <div class="pt32 pb32 offset-lg-2 col-lg-8">
+              <p class="lead" style="text-align: center; ">Todo cliente Banariego se beneficia del Servicio Técnico que ofrecemos a través de nuestra línea de maquinarias Power Pro. Para ello contamos con personal altamente capacitado y un amplio stock de repuestos, con una cobertura a nivel nacional.<br/></p>
+            </div>
+          </div>
+        </div>
+      </section>
+<!-- Title_1 -->
+
+
+<!-- Slider -->
+      <div id="myCarousel1626155697015" class="s_carousel s_carousel_default carousel slide" data-interval="10000" data-name="Style 4">
+        <ol class="carousel-indicators">
+          <li data-target="#myCarousel1626155697015" data-slide-to="0" class="active"/>
+          <li data-target="#myCarousel1626155697015" data-slide-to="1"/>
+        </ol>
+        <div class="container">
+          <div class="carousel-inner te_arrow_small">
+            <div class="carousel-item te_slider_10_bg oe_custom_bg oe_img_bg pt16 pb16 active" data-name="Slide" style="background-image: url(&quot;/h4o_banariego/static/src/img/logo_web_banarriego.png&quot;);">
+              <section class="my-md-5 te_slider_text_content">
+                <div class="te_slider_heading o_default_snippet_text">Lorem ipsum</div>
+                <div class="te_slider_main_heading o_default_snippet_text">Lorem ipsum dolor sit amet</div>
+                <section class="s_btn">
+                  <a href="#" class="btn btn-primary te_theme_button o_default_snippet_text">Know more</a>
+                </section>
+              </section>
+            </div>
+            <div class="carousel-item te_slider_10_bg oe_custom_bg oe_img_bg pt16 pb16" data-name="Slide" style="background-image: url(&quot;/h4o_banariego/static/src/img/logo_web_banarriego.png&quot;);">
+              <section class="my-md-5 te_slider_text_content">
+                <div class="te_slider_heading o_default_snippet_text">Lorem ipsum</div>
+                <div class="te_slider_main_heading o_default_snippet_text">Lorem ipsum dolor sit amet</div>
+                <section class="s_btn">
+                  <a href="#" class="btn btn-primary te_theme_button o_default_snippet_text">Know more</a>
+                </section>
+              </section>
+            </div>
+            <div class="carousel-control-prev d-md-none d-flex" data-target="#myCarousel1626155697015" data-slide="prev" role="img" aria-label="Previous" title="Previous">
+              <span class="carousel-control-prev-icon"/>
+              <span class="sr-only o_default_snippet_text">Previous</span>
+            </div>
+            <div class="carousel-control-next d-md-none d-flex" data-target="#myCarousel1626155697015" data-slide="next" role="img" aria-label="Next" title="Next">
+              <span class="carousel-control-next-icon"/>
+              <span class="sr-only o_default_snippet_text">Next</span>
+            </div>
+          </div>
+        </div>
+      </div>
+<!-- Slider -->
+
+<div class="postslider">
+      <section data-name="Title">
+        <div class="container">
+          <div class="row s_nb_column_fixed">
+            <div class="col-lg-12 s_title" style="text-align: center;">
+              <h4 class="te_s_title_default">Estamos para asesorarte</h4>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="s_text_block" data-name="Text block">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-12 pt32 pb32">
+              <p class="lead o_default_snippet_text" style="text-align: center; padding:0 0 10px 0; ">¿Deseas comprar un producto Banariego y quieres conocer más sobre sus características?&amp;nbsp;</p>
+              <p class="lead" style="text-align: center; padding:0 0 10px 0; ">¿Has adquirido alguna maquinaria Power Pro y necesitas información actualizada?</p>
+              <p class="lead" style="text-align: center; padding:0 0 10px 0; ">¿Necesitas asistencia técnica o consultar la disponibilidad de algún repuesto?</p>
+            </div>
+          </div>
+        </div>
+      </section>
+</div>
+
+
+<!-- seccion-3div -->
+      <section class="tree_block tree_block_2 pb32 pt32" data-name="Servicios contactos">
+        <div class="container te_max_width_3_blocks">
+          <div class="row">
+            <section class="col-md-4 px-lg-4 te_menu_flip_box">
+              <div class="card">
+                <section class="te_service_icon te_menu_flip_box_inner pb48">
+                  <span class="te_three_blocks_icon rounded-circle text-center te_span_icon_block">
+                    <span class="fa align-middle" data-original-title="" title="" >.</span>
+                  </span>
+                </section>
+                <section class="text-center pt-4 card-body">
+                  <section>
+                    <h4 class="te_three_blocks_heading m-4">
+                      <b class="o_default_snippet_text">Contáctanos al</b>
+                    </h4>
+                  </section>
+                  <section>
+                    <p class="p-4 pt0 te_three_blocks_content o_default_snippet_text">WhatsApp 098 238 9534</p>
+                  </section>
+                </section>
+              </div>
+            </section>
+            <section class="col-md-4 px-lg-4 te_menu_flip_box">
+              <div class="card">
+                <section class="te_service_icon te_menu_flip_box_inner pb48">
+                  <span class="te_three_blocks_icon rounded-circle text-center te_span_icon_block">
+                    <span class="fa align-middle" data-original-title="" title="">.</span>
+                  </span>
+                </section>
+                <section class="text-center pt-4 card-body">
+                  <section>
+                    <h4 class="te_three_blocks_heading m-4">
+                      <b class="o_default_snippet_text">Email</b>
+                    </h4>
+                  </section>
+                  <section>
+                    <p class="p-4 pt0 te_three_blocks_content o_default_snippet_text">callcenter@banariego.com coordinaciontaller@banariego.com</p>
+                  </section>
+                </section>
+              </div>
+            </section>
+            <section class="col-md-4 px-lg-4 te_menu_flip_box">
+              <div class="card">
+                <section class="te_service_icon te_menu_flip_box_inner pb48">
+                  <span class="te_three_blocks_icon rounded-circle text-center te_span_icon_block">
+                    <span class="fa align-middle" data-original-title="" title="">.</span>
+                  </span>
+                </section>
+                <section class="text-center pt-4 card-body">
+                  <section>
+                    <h4 class="te_three_blocks_heading m-4">
+                      <b class="o_default_snippet_text">Teléfono</b>
+                    </h4>
+                  </section>
+                  <section>
+                    <p class="p-4 pt0 te_three_blocks_content o_default_snippet_text">042 010 190 ext. 203</p>
+                  </section>
+                </section>
+              </div>
+            </section>
+          </div>
+        </div>
+      </section>
+<!-- seccion-3div -->
+
+
+<!-- Title_2 -->
+      <section data-name="title_service2">
+        <div class="container">
+          <div class="row s_nb_column_fixed">
+            <div class="col-lg-12 s_title" style="text-align: center; margin:10px 0;">
+              <h4 class="te_s_title_default">
+                <font style="font-size: 36px;" class="o_default_snippet_text">2.&amp;nbsp;</font>
+                <span style="font-weight: normal;">
+                  <font style="font-size: 36px; font-weight: 100;">CAPACITACIONES &amp; ASESORÍAS </font>
+                </span>
+              </h4>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="s_text_block" data-name="Text block">
+        <div class="container">
+          <div class="row">
+            <div class="pb32 col-lg-8 offset-lg-2">
+              <p class="lead" style="text-align: center; ">Banariego pone a disposición de clientes y socios estratégicos el plan de Capacitación Técnica en áreas del sector Agrícola y Productivo. En cuanto a las asesorías, contamos con un equipo profesional en capacidad de realizar recomendaciones técnicas que se ajusten a los diferentes proyectos de riego.<br/></p>
+            </div>
+          </div>
+        </div>
+      </section>
+<!-- Title_2 -->
+
+      <section data-name="Title">
+        <div class="container">
+          <div class="row s_nb_column_fixed">
+            <div class="col-lg-12 s_title" style="text-align: center;">
+              <h4 class="te_s_title_default">Nuestras capacitaciones</h4>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="s_text_block" data-name="Text block">
+        <div class="container">
+          <div class="row">
+            <div class="pt32 pb32 offset-lg-2 col-lg-8">
+              <p class="lead" style="text-align: center; ">Se realizan una vez por trimestre y tienen como escenario las instalaciones de Banariego Matiz, ubicada en el cantón El Triunfo, provincia del Guayas, Ecuador. También se realizan capacitaciones sectorizadas en nuestras oficinas de la zona Norte y Sur de la costa ecuatoriana.&amp;nbsp;<br/></p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+
+<!--section_capacitacion--> 
+
+      <section data-name="Title">
+        <div class="container">
+          <div class="row s_nb_column_fixed">
+            <div class="col-lg-12 s_title" style="text-align: center;">
+              <h4 class="te_s_title_default">Capacitaciones 2021</h4>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="container" data-name="Style 1">
+        <div class="row pt32 pb32">
+          <div class="col-lg-6 col-md-6 pb-lg-0 pb-2">
+            <section class="t_img_hover_1 te_2_col_bg te_img_effect2"> 
+              <img class="img img-fluid" src="/h4o_banariego/static/src/img/bg_sm.png" data-original-title="" title="" aria-describedby="tooltip927530"/>
+              <section class="te_2_col_section pb0 pt48">
+                <div>
+                  <h2>
+                    <font style="font-size: 24px;">Capacitación a Instaladores de Sistemas de Riegos</font>
+                  </h2>
+                  <p>Objetivo: Incrementar los conocimientos técnicos de los instaladores mediante el desarrollo del temario técnico para promover el correcto uso de los diferentes equipos de riego agrícola.</p>
+                  <p><font style="font-size: 18px;">Contenido:</font>&amp;nbsp;</p>
+                  <ul>
+                    <li>
+                      <p>Características técnicas generales de los productos</p>
+                    </li>
+                    <li>
+                      <p>Micro aspersores Azud</p>
+                    </li>
+                  </ul>
+                </div>
+              </section>
+            </section>
+          </div>
+          <div class="col-lg-6 col-md-6 pb-lg-0 pb-2">
+            <section class="t_img_hover_1 te_img_effect2 te_2_col_bg">
+              <img class="img img-fluid" src="/h4o_banariego/static/src/img/bg_sm.png" data-original-title="" title="" aria-describedby="tooltip722180"/>
+              <section class="te_2_col_section">
+                <div>
+                  <h2>
+                    <span class="o_default_snippet_text">My heading 2</span>
+                  </h2>
+                  <p class="o_default_snippet_text">Lorem ipsum dolor sit</p>
+                  <div class="s_btn pt16 pb16" data-name="Buttons">
+                    <a href="#" class="btn btn-primary te_theme_button o_default_snippet_text">Knowmore</a>
+                  </div>
+                </div>
+              </section>
+            </section>
+          </div>
+        </div>
+      </section>
+<!--section_capacitacion--> 
+
+
+<!-- linea separador -->
+    <div class="line_separator"> <section class="line"></section> </div>
+<!-- linea separador -->
+
+<!-- pre-footer -->
+      <section class="tree_block pb32 pt32" data-name="Proyectos Banariego">
+        <div class="container te_max_width_3_blocks">
+          <div class="row">
+            <section class="col-md-4 px-lg-4 te_menu_flip_box">
+              <div class="card">
+                <section class="te_service_icon te_menu_flip_box_inner pb48">
+                  <span class="te_three_blocks_icon rounded-circle text-center te_span_icon_block">
+                    <span class="fa align-middle fa-3x te_icon_styling fa-map-marker" data-original-title="" title="" aria-describedby="tooltip459743"/>
+                  </span>
+                </section>
+                <section class="text-center pt-4 card-body">
+                  <section>
+                    <h4 class="te_three_blocks_heading m-4">
+                      <b class="o_default_snippet_text">Ubícanos</b>
+                    </h4>
+                  </section>
+                  <section>
+                    <p class="p-4 pt0 te_three_blocks_content o_default_snippet_text">Matriz, El Triunfo Prov. del Guayas Av. 8 de Abril # 200 y Angel Arce, junto a Almacenes Tía.</p>
+                  </section>
+                </section>
+              </div>
+            </section>
+            <section class="col-md-4 px-lg-4 te_menu_flip_box">
+              <div class="card">
+                <section class="te_service_icon te_menu_flip_box_inner pb48">
+                  <span class="te_three_blocks_icon rounded-circle text-center te_span_icon_block">
+                    <span class="fa align-middle fa-3x te_icon_styling fa-envelope-o" data-original-title="" title="" aria-describedby="tooltip447015"/>
+                  </span>
+                </section>
+                <section class="text-center pt-4 card-body">
+                  <section>
+                    <h4 class="te_three_blocks_heading m-4">
+                      <b class="o_default_snippet_text">Email</b>
+                    </h4>
+                  </section>
+                  <section>
+                    <p class="p-4 pt0 te_three_blocks_content o_default_snippet_text">ventas@banariego.com callcenter@banariego.com coordinaciontaller@banariego.com</p>
+                  </section>
+                </section>
+              </div>
+            </section>
+            <section class="col-md-4 px-lg-4 te_menu_flip_box">
+              <div class="card">
+                <section class="te_service_icon te_menu_flip_box_inner pb48">
+                  <span class="te_three_blocks_icon rounded-circle text-center te_span_icon_block">
+                    <span class="fa align-middle fa-3x te_icon_styling fa-phone"/>
+                  </span>
+                </section>
+                <section class="text-center pt-4 card-body">
+                  <section>
+                    <h4 class="te_three_blocks_heading m-4">
+                      <b class="o_default_snippet_text">Teléfono</b>
+                    </h4>
+                  </section>
+                  <section>
+                    <p class="p-4 pt0 te_three_blocks_content o_default_snippet_text">042010190 / 042010072 / 042010726 Ext.: 100 - 101 - 102 - 103</p>
+                  </section>
+                </section>
+              </div>
+            </section>
+          </div>
+        </div>
+      </section>
+<!-- pre-footer -->
+
+</template> 
+
+</odoo>
+
+
+
+
+
+
+
+
+
+
+

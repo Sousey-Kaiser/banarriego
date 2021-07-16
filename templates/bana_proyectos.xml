@@ -1,0 +1,251 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+<template id="snippet proyectos" inherit_id="website.snippets">
+  <xpath expr="//div[@id='snippet_structure']/div[hasclass('o_panel_header')]" position="before">
+    <div class="o_panel_body">
+    <t t-snippet="h4o_banariego.bana_proyectos" t-thumbnail="/h4o_banariego/static/src/img/logo_web_banarriego.png"/>
+    </div>
+  </xpath>
+</template>
+
+<!-- TEMPLATE BANARIEGO DE PAGINA DE Proyectos -->
+<template id="bana_proyectos" name="Proyectos Banariego"> 
+
+      <section class="oe_img_bg pt96 pb88 fade-up oe_custom_bg aos-init" data-name="Proyectos Banariego" style="background-image: url(&quot;/h4o_banariego/static/src/img/bg_banner_nosotros.jpg&quot;); background-position: 50.28% 11.6%;" data-aos="fade-up">
+        <div class="container">
+          <div class="row s_nb_column_fixed">
+            <div class="col-lg-12 s_title pb0" style="text-align: center;">
+              <h4 class="te_s_title_default" data_aos_ept="s_title_default">
+                <font style="color: rgb(255, 255, 255); font-size: 50px;">PROYECTOS</font>
+              </h4>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <div class="separate"></div>
+
+<!-- section-redes-float -->
+  <div class="section_float">
+    <div class="social_float">
+      <ul>
+        <li><a href="#" class="btn_social_float icon_youtube" target="_blank" title="Youtube"/></li>
+        <li><a href="https://www.instagram.com/banariego_cia_ltda/?fbclid=IwAR2pzfnM-NY4fzkZT5Ik9yKnK_38hLl9NZYkqWET8ahNUXPP0ruxwH0r5UI" class="btn_social_float icon_insta" target="_blank" title="Instagram"/></li>
+        <li><a href="https://www.facebook.com/banariego" class="btn_social_float icon_face" target="_blank" title="Facebook"/></li>
+        <li><span>-------------</span></li>
+        <li><p>SIGUENOS</p></li>
+      </ul>
+    </div>
+  </div>
+<!-- section-redes-float -->
+
+
+      <div class="oe_structure" data-name="Style 1"/>
+      <section data-name="Title">
+        <div class="container">
+          <div class="row s_nb_column_fixed">
+            <div class="col-lg-12 s_title" style="text-align: center; margin:20px 0;">
+              <h4 class="te_s_title_default">
+                <font style="font-size: 36px;">1.&amp;nbsp;</font>
+                <span style="font-weight: normal;">
+                  <font style="font-size: 36px; font-weight: 100;">PROYECTO INTEGRAL</font>
+                </span>
+              </h4>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="container" data-name="Style 1">
+        <div class="row bg_icon pt32 pb32">
+          <div class="col-md-6 pb-lg-0 pb-2 col-lg-4 offset-lg-2">
+            <section class="left_section te_2_col_bg">
+              <img class="flip_img img img-fluid" src="/h4o_banariego/static/src/img/bg_text_proyectos.png" data-original-title="" title="" aria-describedby="tooltip682409"/>
+              <section class="te_2_col_section">
+                <div>
+                  <p>Servicio direccionado a la ejecución de proyectos de manera global, es decir, desde el estudio, estructura de diseño e instalación, brindando una garantía integral del proyecto.</p>
+                </div>
+              </section>
+            </section>
+          </div>
+          <div class="col-lg-6 col-md-6 pb-lg-0 pb-2">
+            <section class="rigth_section t_img_hover_1 te_2_col_bg te_img_effect2">
+              <img class="img img-fluid" src="/h4o_banariego/static/src/img/pic_1_proyectos.png" data-original-title="" title="" aria-describedby="tooltip882661"/>
+            </section>
+          </div>
+        </div>
+      </section>
+
+      <section data-name="Title">
+        <div class="container">
+          <div class="row s_nb_column_fixed">
+            <div class="col-lg-12 s_title" style="text-align: center; margin:20px 0;">
+              <h4 class="te_s_title_default">
+                <font style="font-size: 36px;">2. <span style="font-weight: 100; ">PROYECTO PLUS</span></font>
+              </h4>
+            </div>
+          </div>
+        </div>
+      </section>
+
+
+      <section class="container" data-name="Style 1">
+        <div class="row bg_icon pt32 pb32">
+          <div class="col-md-6 pb-lg-0 pb-2 col-lg-4 offset-lg-2">
+            <section class="left_section t_img_hover_1 te_2_col_bg te_img_effect2">
+              <img class="img img-fluid" src="/h4o_banariego/static/src/img/pic_2_proyectos.png"/>
+            </section>
+          </div>
+          <div class="col-md-6 pb-lg-0 pb-2 col-lg-4"> 
+            <section class="rigth_section te_2_col_bg">
+              <img class="img img-fluid" src="/h4o_banariego/static/src/img/bg_text_proyectos.png" data-original-title="" title="" aria-describedby="tooltip421285"/>
+              <section class="te_2_col_section">
+                <div>
+                  <p>Servicio direccionado al estudio y estructura de diseño de riego, ofertando al cliente final proyectos estructurados para una fácil instalación, con el respectivo seguimiento y soporte técnico por parte de BANARIEGO.</p>
+                </div>
+              </section>
+            </section>
+          </div>
+        </div>
+      </section>
+
+      <section data-name="Title">
+        <div class="container">
+          <div class="row s_nb_column_fixed">
+            <div class="col-lg-12 s_title" style="text-align: center; margin:20px 0;">
+              <h4 class="te_s_title_default">
+                <font style="font-size: 36px;">3. <span style="font-weight: 100;">PROYECTO AUDITORÍAS DE RIEGO</span></font>
+              </h4>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="container" data-name="Style 1">
+        <div class="row bg_icon pt32 pb32">
+          <div class="col-md-6 pb-lg-0 pb-2 col-lg-4 offset-lg-2">
+            <section class="left_section te_2_col_bg">
+              <img class="flip_img img img-fluid" src="/h4o_banariego/static/src/img/bg_text_proyectos.png" data-original-title="" title="" aria-describedby="tooltip144492"/>
+              <section class="te_2_col_section">
+                <div>
+                  <p>Servicio direccionado a la ejecución de auditorías de sistemas de riego existente, para comprobar su funcionamiento actual; dicho servicio está orientado a realizar adecuaciones necesarias para que los equipos existentes logren un buen desempeño.</p>
+                </div>
+              </section>
+            </section>
+          </div>
+          <div class="col-lg-6 col-md-6 pb-lg-0 pb-2">
+            <section class="rigth_section t_img_hover_1 te_2_col_bg te_img_effect2">
+              <img class="img img-fluid" src="/h4o_banariego/static/src/img/pic_3_proyectos.png"/>
+            </section>
+          </div>
+        </div>
+      </section>
+
+      <section data-name="Title">
+        <div class="container">
+          <div class="row s_nb_column_fixed">
+            <div class="col-lg-12 s_title" style="text-align: center; margin:20px 0;">
+              <h4 class="te_s_title_default">
+                <font style="font-size: 36px;">4. <span style="font-weight: 100;">PROYECTO POWER PRO</span></font>
+              </h4>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="container" data-name="Style 1">
+        <div class="row bg_icon pt32 pb32">
+          <div class="col-md-6 pb-lg-0 pb-2 col-lg-4 offset-lg-2" style="">
+            <section class="left_section t_img_hover_1 te_2_col_bg te_img_effect2">
+              <img class="img img-fluid" src="/h4o_banariego/static/src/img/pic_4_proyectos.png" data-original-title="" title="" aria-describedby="tooltip699710"/>
+            </section>
+          </div>
+          <div class="col-md-6 pb-lg-0 pb-2 col-lg-4">
+            <section class="rigth_section te_2_col_bg">
+              <img class="img img-fluid" src="/h4o_banariego/static/src/img/bg_text_proyectos.png" data-original-title="" title="" aria-describedby="tooltip849507"/>
+              <section class="te_2_col_section">
+                <div>
+                  <p>Servicio direccionado al estudio y estructura de diseño de bombeo, ofertando al cliente final un proyecto integral direccionado a equipos de bombeos.</p>
+                </div>
+              </section>
+            </section>
+          </div>
+        </div>
+      </section>
+
+
+
+
+<!-- linea separador -->
+    <div class="line_separator"> <section class="line"></section> </div>
+<!-- linea separador -->
+
+<!-- pre-footer -->
+      <section class="tree_block pb32 pt32" data-name="Proyectos Banariego">
+        <div class="container te_max_width_3_blocks">
+          <div class="row">
+            <section class="col-md-4 px-lg-4 te_menu_flip_box">
+              <div class="card">
+                <section class="te_service_icon te_menu_flip_box_inner pb48">
+                  <span class="te_three_blocks_icon rounded-circle text-center te_span_icon_block">
+                    <span class="fa align-middle fa-3x te_icon_styling fa-map-marker" data-original-title="" title="" aria-describedby="tooltip459743"/>
+                  </span>
+                </section>
+                <section class="text-center pt-4 card-body">
+                  <section>
+                    <h4 class="te_three_blocks_heading m-4">
+                      <b class="o_default_snippet_text">Ubícanos</b>
+                    </h4>
+                  </section>
+                  <section>
+                    <p class="p-4 pt0 te_three_blocks_content o_default_snippet_text">Matriz, El Triunfo Prov. del Guayas Av. 8 de Abril # 200 y Angel Arce, junto a Almacenes Tía.</p>
+                  </section>
+                </section>
+              </div>
+            </section>
+            <section class="col-md-4 px-lg-4 te_menu_flip_box">
+              <div class="card">
+                <section class="te_service_icon te_menu_flip_box_inner pb48">
+                  <span class="te_three_blocks_icon rounded-circle text-center te_span_icon_block">
+                    <span class="fa align-middle fa-3x te_icon_styling fa-envelope-o" data-original-title="" title="" aria-describedby="tooltip447015"/>
+                  </span>
+                </section>
+                <section class="text-center pt-4 card-body">
+                  <section>
+                    <h4 class="te_three_blocks_heading m-4">
+                      <b class="o_default_snippet_text">Email</b>
+                    </h4>
+                  </section>
+                  <section>
+                    <p class="p-4 pt0 te_three_blocks_content o_default_snippet_text">ventas@banariego.com callcenter@banariego.com coordinaciontaller@banariego.com</p>
+                  </section>
+                </section>
+              </div>
+            </section>
+            <section class="col-md-4 px-lg-4 te_menu_flip_box">
+              <div class="card">
+                <section class="te_service_icon te_menu_flip_box_inner pb48">
+                  <span class="te_three_blocks_icon rounded-circle text-center te_span_icon_block">
+                    <span class="fa align-middle fa-3x te_icon_styling fa-phone"/>
+                  </span>
+                </section>
+                <section class="text-center pt-4 card-body">
+                  <section>
+                    <h4 class="te_three_blocks_heading m-4">
+                      <b class="o_default_snippet_text">Teléfono</b>
+                    </h4>
+                  </section>
+                  <section>
+                    <p class="p-4 pt0 te_three_blocks_content o_default_snippet_text">042010190 / 042010072 / 042010726 Ext.: 100 - 101 - 102 - 103</p>
+                  </section>
+                </section>
+              </div>
+            </section>
+          </div>
+        </div>
+      </section>
+<!-- pre-footer -->
+
+</template> 
+
+</odoo>

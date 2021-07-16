@@ -1,0 +1,414 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+  <template id="snippet home" inherit_id="website.snippets">
+    <xpath expr="//div[@id='snippet_structure']/div[hasclass('o_panel_header')]" position="before">
+      <div class="o_panel_body">
+      <t t-snippet="h4o_banariego.bana_home" t-thumbnail="/h4o_banariego/static/src/img/logo_web_banarriego.png"/>
+      </div>
+    </xpath>
+  </template>
+
+<!-- TEMPLATE BANARIEGO DE PAGINA DE INICIO -->
+  <template id="bana_home" name="Homepage Banariego">
+
+
+    <section data-name="Style 4">
+        <div id="wrap" class="oe_structure" spellcheck="false">
+
+<!-- seccion-banner -->
+          <div class="oe_structure" data-name="Style 3" data-editor-message="DRAG BUILDING BLOCKS HERE">
+            <section data-name="Banner Video" class="oe_img_bg oe_custom_bg o_background_video" style="background-image: url(&quot;/h4o_banariego/static/src/img/bg_header_home.jpg&quot;);" data-bg-video-src="/h4o_banariego/static/src/img/HOME_BANARIEGO.m4v">
+              <video autoplay="" loop="" width="60%" height="80%" style="width: 60%;height: 80%;left: 20%;top: 10%;">
+                <source src="/clarico_vega_demo_data/static/src/video/homepagevideo.mp4" type="video/mp4"></source>
+                <!--<source src="/clarico_vega_demo_data/static/src/video/homepagevideo.webm" type="video/webm"></source>-->
+                <!--<source src="/clarico_vega_demo_data/static/src/video/homepagevideo.ogg" type="video/ogg"></source>-->
+              </video>
+            </section>
+          </div>
+<!-- seccion-banner -->
+
+<!-- seccion-intro -->
+          <section class="s_text_image pt32 pb32" data-name="Image - Text">
+            <div class="container">
+              <div class="row align-items-center aos-init" data-aos="align-items-center">
+                <div class="col-lg-5">
+                  <div class="t_img_hover_1 te_img_txt_s1">
+                    <img src="/h4o_banariego/static/src/img/55_sucursales.jpg" class="img img-fluid mx-auto" alt="Clarico-Image-Text" data-original-title="" title="" aria-describedby="tooltip990861"/>
+                  </div>
+                </div>
+                <div class="col-lg-6">
+                  <h2 class="te_s_it_heading" style="font-weight: 100; text-align: left;">Todo lo que necesita</h2>
+                  <h2 class="te_s_it_heading" style="font-weight: 700; text-align: left;">en sistemas de riego</h2>
+                  <h2 class="te_s_it_heading" style="font-weight: 100; text-align: left;">Banariego lo tiene.</h2>
+                  <p class="mb16">Nos especializamos en proveer una amplia gama de productos como tubos, mangueras, accesorios y <br/>maquinarias; así como servicios de asesoría técnica, instalación y soporte. Todos estos orientados a <br/>proyectos de riego agrícola manuales y automatizados, pozos, drenajes, conducción de agua y demás aplicaciones. </p>
+                  <div class="s_btn text-left pt16 pb16" data-name="Button">
+                    <a href="#" class="te_theme_button btn btn-outline-alpha" data-original-title="" title="" aria-describedby="tooltip192344">Conoce más</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
+<!-- seccion-intro -->
+
+
+<!-- section-redes-float -->
+  <div class="section_float">
+    <div class="social_float">
+      <ul>
+        <li><a href="#" class="btn_social_float icon_youtube" target="_blank" title="Youtube"/></li>
+        <li><a href="https://www.instagram.com/banariego_cia_ltda/?fbclid=IwAR2pzfnM-NY4fzkZT5Ik9yKnK_38hLl9NZYkqWET8ahNUXPP0ruxwH0r5UI" class="btn_social_float icon_insta" target="_blank" title="Instagram"/></li>
+        <li><a href="https://www.facebook.com/banariego" class="btn_social_float icon_face" target="_blank" title="Facebook"/></li>
+        <li><span>-------------</span></li>
+        <li><p>SIGUENOS</p></li>
+      </ul>
+    </div>
+  </div>
+<!-- section-redes-float -->
+
+
+<!-- seccion-six-block -->
+          <section class="d-inline-block w-100 pt32 pb32" data-name="Style 7">
+            <div class="container">
+              <div class="row align-items-center">
+                <div class="col-lg-6 pb-0 pb-sm-3 pb-lg-0">
+                  <div class="bg_block_home1 overflow-hidden te_offer_img" style="border-radius:10px;">
+                    <img class="img img-fluid" src="/h4o_banariego/static/src/img/product_home1.jpg"/>
+                    <div class="te_offer_big_img_content">
+                      <h3 class="o_default_snippet_text" style="font-weight: 700;">Bomba Power Pro 10 HP</h3>
+                      <p class="o_default_snippet_text">Línea de Maquinarias</p>
+                    </div>
+                  </div>
+                  <div class="row align-items-center te_offer_s7_left">
+                    <div class="col-lg-6 col-sm-6 col-md-6">
+                      <div class="overflow-hidden te_offer_img" style="border-radius:10px;">
+                        <img class="img img-fluid" src="/h4o_banariego/static/src/img/product_home2.jpg"/>
+                      </div>
+                      <div class="te_offer_small_img_content">
+                        <h4 class="o_default_snippet_text" style="font-weight: 700;">Válvula de Aire</h4>
+                        <p class="o_default_snippet_text">Líneas de Válvulas</p>
+                      </div>
+                    </div>
+                    <div class="col-lg-6 col-sm-6 col-md-6">
+                      <div class="overflow-hidden te_offer_img" style="border-radius:10px;">
+                        <img class="img img-fluid" src="/h4o_banariego/static/src/img/product_home3.jpg"/>
+                      </div>
+                      <div class="te_offer_small_img_content">
+                        <h4 class="o_default_snippet_text" style="font-weight: 700;">Tubería Lisa</h4>
+                        <p class="o_default_snippet_text">Línea de Tubería</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <section class="col-lg-6 pt-3 pt-lg-0">
+                  <div class="row align-items-center te_offer_s7_right">
+                    <div class="col-lg-6 col-sm-6 col-md-6">
+                      <div class="overflow-hidden te_offer_img" style="border-radius:10px;">
+                        <img class="img img-fluid" src="/h4o_banariego/static/src/img/product_home4.jpg"/>
+                      </div>
+                      <div class="te_offer_small_img_content">
+                        <h4 class="o_default_snippet_text" style="font-weight: 700;">Cinta de Goteo</h4>
+                        <p class="o_default_snippet_text">Línea de Riego</p>
+                      </div>
+                    </div>
+                    <div class="col-lg-6 col-sm-6 col-md-6">
+                      <div class="overflow-hidden te_offer_img" style="border-radius:10px;">
+                        <img class="img img-fluid" src="/h4o_banariego/static/src/img/product_home5.jpg"/>
+                      </div>
+                      <div class="te_offer_small_img_content">
+                        <h4 class="o_default_snippet_text" style="font-weight: 700;">Aspersores</h4>
+                        <p class="o_default_snippet_text">Línea de Riego</p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="bg_block_home2 overflow-hidden te_offer_img" style="border-radius:10px;">
+                    <img class="img img-fluid" src="/h4o_banariego/static/src/img/product_home6.jpg"/>
+                    <div class="te_offer_big_img2_content">
+                      <h3 class="o_default_snippet_text" style="font-weight: 700;">Cortasetos &amp; Perforadora Power Pro</h3>
+                      <p class="o_default_snippet_text">Línea de Maquinarias</p>
+                    </div>
+                  </div>
+                </section>
+              </div>
+            </div>
+          </section>
+
+          <section class="s_text_block" data-name="Text block">
+            <div class="container">
+              <div class="row">
+                <div class="col-lg-12 pt0 pb16">
+                  <div class="s_btn pt16 pb16 text-center aos-init" data-name="Button" data-aos="text-center">
+                    <a href="#" class="te_theme_button btn btn-primary" data-original-title="" title="" aria-describedby="tooltip967106">Conoce todas las líneas de productos</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
+<!-- seccion-six-block -->
+
+
+<!-- seccion-proyectos -->
+        <div class="bg_proyect_home">
+          <div class="oe_structure" data-name="Style 8">
+            <section data-name="Title">
+              <div class="container">
+                <div class="row s_nb_column_fixed">
+                  <div class="col-lg-12 s_title" style="text-align: center;"> 
+                    <h2 class="te_s_title_default" style="font-weight: 100;">Proyectos Integrales de Riego&amp;nbsp;</h2>
+                    <h4 class="te_s_title_default" style="font-weight: 700;">Le damos una mano</h4>
+                  </div>
+                </div>
+              </div>
+            </section>
+          </div>
+
+          <section class="pb32 pt32" data-name="Style 4">
+            <div class="container">
+              <!-- <h4 class="te_col_5_title">My Heading 4</h4>
+              <p class="te_col_5_sub_title">Lorem ipsum dolor</p> -->
+              <div class="row te_col_6_main">
+                <div class="col-lg-3 col-sm-6">
+                  <div class="bg_text_proyect">
+                    <section class="te_4_col2_content">
+                      <h3 class="o_default_snippet_text">1. Proyecto Integral</h3>
+                      <p class="o_default_snippet_text">Servicio direccionado a la ejecución de proyectos de manera global, es decir, desde el estudio, estructura de diseño e instalación, brindando una garantía integral del proyecto.</p>
+                      <!-- <div class="te_extra_btn">
+                        <a href="#" class="o_default_snippet_text">Shop More</a>
+                      </div> -->
+                    </section>
+                  </div>                
+                  <section class="t_img_hover_1 te_img_effect3">
+                    <a href="#">
+                      <img class="img img-responsive img-fluid d-block mx-auto" alt="" src="/h4o_banariego/static/src/img/proyecto_home_1.png"/>
+                    </a>
+                  </section>
+                </div>
+
+                <div class="col-lg-3 col-sm-6">
+                  <section class="t_img_hover_1 te_img_effect3">
+                    <a href="#">
+                      <img class="img img-responsive img-fluid d-block mx-auto" alt="" src="/h4o_banariego/static/src/img/proyecto_home_2.png"/>
+                    </a>
+                  </section>
+                  <div class="bg_text_proyect1">
+                    <section class="te_4_col2_content">
+                      <h3 class="o_default_snippet_text">2. Proyecto Plus</h3>
+                      <p class="o_default_snippet_text">Servicio direccionado al estudio y estructura de diseño de riego, ofertando al cliente final proyectos estructurados para una fácil instalación, con el respectivo seguimiento y soporte técnico por parte de BANARIEGO.</p>
+                      <!-- <div class="te_extra_btn">
+                        <a href="#" class="o_default_snippet_text">Shop More</a>
+                      </div> -->
+                    </section>
+                  </div>
+                </div>
+
+                <div class="col-lg-3 col-sm-6">
+                  <div class="bg_text_proyect">
+                    <section class="te_4_col2_content">
+                      <h3 class="o_default_snippet_text">3. Proyecto Auditorías de Riego</h3>
+                      <p class="o_default_snippet_text">Servicio direccionado a la ejecución de auditorías de sistemas de riego existente, para comprobar su funcionamiento actual; dicho servicio está orientado a realizar adecuaciones necesarias para que los equipos existentes logren un buen desempeño.</p>
+                      <!-- <div class="te_extra_btn">
+                        <a href="#" class="o_default_snippet_text">Shop More</a>
+                      </div> -->
+                    </section>
+                  </div>             
+                  <section class="t_img_hover_1 te_img_effect3">
+                    <a href="#">
+                      <img class="img img-responsive img-fluid d-block mx-auto" alt="" src="/h4o_banariego/static/src/img/proyecto_home_3.png"/>
+                    </a>
+                  </section>
+                </div>
+
+                <div class="col-lg-3 col-sm-6">
+                  <section class="t_img_hover_1 te_img_effect3">
+                    <a href="#">
+                      <img class="img img-responsive img-fluid d-block mx-auto" alt="" src="/h4o_banariego/static/src/img/proyecto_home_4.png"/>
+                    </a>
+                  </section>
+                  <div class="bg_text_proyect1">
+                    <section class="te_4_col2_content">
+                      <h3 class="o_default_snippet_text">4. Proyecto Power Pro</h3>
+                      <p class="o_default_snippet_text">Servicio direccionado al estudio y estructura de diseño de bombeo, ofertando al cliente final un proyecto integral direccionado a equipos de bombeos. </p>
+                      <!-- <div class="te_extra_btn">
+                        <a href="#" class="o_default_snippet_text">Shop More</a>
+                      </div> -->
+                    </section>
+                  </div>
+                </div>
+
+              </div>
+            </div>
+          </section>
+        </div>
+<!-- seccion-proyectos -->
+
+
+<!-- seccion-Recomendaciones -->
+      <section class="s_text_block" data-name="Text block">
+            <div class="container">
+              <div class="row">
+                <div class="col-lg-12 s_title" style="text-align: center;">
+                  <h2 class="te_s_title_default" style="font-weight: 700;">Recomendaciones Banariego</h2>
+                  <h4 class="te_s_title_default" style="font-weight: 100;">Trabajamos para que cada uno de tus cultivos se encamine hacia el éxito.<br/></h4>
+                </div>
+              </div>
+            </div>
+      </section>
+
+      <section class="container" data-name="Style 1">
+            <div class="row pt32 pb32">
+              <div class="col-lg-6 col-md-6 pb-lg-0 pb-2">
+                <section class="t_img_hover_1 te_2_col_bg">
+                  <img class="img img-fluid" src="/h4o_banariego/static/src/img/proyect_home_1.png" data-original-title="" title="" aria-describedby="tooltip735106"/>
+                  <section class="te_2_col_section">
+                    <div>
+                      <p class="o_default_snippet_text">Proyectos integrales de riego</p>
+                      <h2>
+                        <span class="o_default_snippet_text" style="font-weight: 700; color:#227a42;" >Riego Eficiente</span>
+                      </h2>
+                      <p class="o_default_snippet_text">Con eL riego por goteo aplicamos el <br/>agua directamente en La pLanta, <br/>evitando regar hierbas innecesarias, <br/>impidiendo eL crecimiento de las mismas. </p>
+                      <!-- <div class="s_btn pt16 pb16" data-name="Buttons">
+                        <a href="#" class="btn btn-primary te_theme_button o_default_snippet_text">Know more </a>
+                      </div> -->
+                    </div>
+                  </section>
+                </section>
+              </div>
+
+              <div class="col-lg-6 col-md-6 pb-lg-0 pb-2">
+                <section class="t_img_hover_1 te_2_col_bg">
+                  <img class="img img-fluid" src="/h4o_banariego/static/src/img/proyect_home_2.png"/>
+                  <section class="te_2_col_section">
+                    <div>
+                      <p class="o_default_snippet_text">Proyectos integrales de riego</p>
+                      <h2>
+                        <span class="o_default_snippet_text" style="font-weight: 700; color:#227a42;" >Cultivo de mango</span>
+                      </h2>
+                      <p class="o_default_snippet_text">Recuerda, el mango crece en tierra <br/>suelta y arenosa en donde el agua se <br/>drene facilmente. Para ayudar al <br/>crecimiento deL arboL, evita usar fertilizantes <br/>quimicos o productos que contengan sal. </p>
+                      <!-- <div class="s_btn pt16 pb16" data-name="Buttons">
+                        <a href="#" class="btn btn-primary te_theme_button" data-original-title="" title="" aria-describedby="tooltip287477">Know more </a>
+                      </div> -->
+                    </div>
+                  </section>
+                </section>
+              </div>
+            </div>
+      </section>
+
+      <section class="s_text_block" data-name="Text block">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-12 pt0 pb32">
+              <div class="s_btn text-center pt16 pb16" data-name="Button">
+                <a href="#" class="btn btn-primary te_theme_button" data-original-title="" title="" aria-describedby="tooltip957479">Ver todas las recomendaciones</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+<!-- seccion-Recomendaciones -->
+
+
+
+<!-- seccion-Novedades -->
+      <section class="pb32 pt32 te_blog_style_2" data-name="Blog Style 2">
+        <div class="container">
+          <h2 class="te_blog_2_heading o_default_snippet_text" style="font-weight: 700;">Novedades Banariego</h2>
+          <h4 class="te_blog_2_heading o_default_snippet_text" style="font-weight: 100;">Mantenete al tanto de lo que estamos haciendo</h4>
+          <div class="row js_get_posts te_blog_s2"/>
+        </div>
+      </section>    
+
+      <section class="s_text_block pb64" data-name="Text block">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-12 pt32 pb0">
+              <div class="s_btn text-center pt16 pb16" data-name="Button">
+                <a href="#" class="btn btn-primary te_theme_button o_default_snippet_text">Ver todas las noticias</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+<!-- seccion-Novedades -->
+
+
+
+<!-- seccion-sucursales -->
+      <section data-name="Title">
+        <div class="container">
+          <div class="row s_nb_column_fixed">
+            <div class="col-lg-12 s_title" style="text-align: center;">
+              <h2 class="te_s_title_default" style="font-weight: 700;">Deseamos que tu proyecto alcance el éxito</h2>
+              <h4 class="te_s_title_default" style="font-weight: 100;">Consulta por nuestros servios o nuestra sucursal más cecana al:</h4>
+            </div>
+            <div class="col-lg-12" style="text-align: center;">
+              <img class="img img-fluid" src="/h4o_banariego/static/src/img/ima_whast.jpg" data-original-title="" title="" aria-describedby="tooltip735106"/>
+            </div>
+          </div>
+        </div>
+      </section>
+
+<!-- grupo_tres_sucursales -->
+      <section class="group_three_sucursal s_three_columns pt32 pb32" data-name="tres_sucursales">
+        <div class="container">
+          <div class="row d-flex align-items-stretch aos-init" data-aos="align-items-stretch">
+            <div class="col-lg-4 col-md-4 s_col_no_bgcolor te_col_ind">
+              <div class="te_image_overflow t_img_hover_1 ">
+                <img class="card-img-top img img-responsive te_feature_image" src="/h4o_banariego/static/src/img/map_guayas.jpg" alt="Clarico-3 Columns Style 5" data-original-title="" title="" aria-describedby="tooltip277687"/>
+              </div>
+              <div class="te_center_position">
+                <section class="text-center pb8 pt16 te_button_position">
+                  <h6 class="mb0">
+                    <a href="#" class="te_fix_content_h3" data-original-title="" title="">GUAYAS</a>
+                  </h6>
+                  <span>Ver sucursales de la provincia</span>
+                </section>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-4 s_col_no_bgcolor te_col_ind">
+              <div class="te_image_overflow t_img_hover_1 ">
+                <img class="card-img-top img img-responsive te_feature_image" src="/h4o_banariego/static/src/img/map_cuenca.jpg" alt="Clarico-3 Columns Style 5"/>
+              </div>
+              <div class="te_center_position">
+                <section class="text-center pb8 pt16 te_button_position">
+                  <h6 class="mb0">
+                    <a href="#" class="te_fix_content_h3 o_default_snippet_text">AZUAY</a>
+                  </h6>
+                  <span class="o_default_snippet_text">Ver sucursales de la provincia</span>
+                </section>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-4 s_col_no_bgcolor te_col_ind">
+              <div class="te_image_overflow t_img_hover_1 ">
+                <img class="card-img-top img img-responsive te_feature_image" src="/h4o_banariego/static/src/img/map_azogues.jpg" alt="Clarico-3 Columns Style 5"/>
+              </div>
+              <div class="te_center_position">
+                <section class="text-center pb8 pt16 te_button_position">
+                  <h6 class="mb0">
+                    <a href="#" class="te_fix_content_h3">CAÑAR</a>
+                  </h6>
+                  <span>Ver sucursales de la provincia</span>
+                </section>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+<!-- grupo_tres_sucursales -->
+    
+      <section class="s_text_block pb64" data-name="Text block">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-12 pt32 pb0">
+              <div class="s_btn text-center pt16 pb16" data-name="Button">
+                <a href="#" class="btn btn-primary te_theme_button o_default_snippet_text">Ver todas las sucursales</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+<!-- seccion-sucursales -->
+        </div>
+    </section>
+  </template>
+</odoo>

@@ -1,0 +1,218 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+<template id="snippet nosotros" inherit_id="website.snippets">
+  <xpath expr="//div[@id='snippet_structure']/div[hasclass('o_panel_header')]" position="before">
+    <div class="o_panel_body">
+    <t t-snippet="h4o_banariego.bana_nosotros" t-thumbnail="/h4o_banariego/static/src/img/logo_web_banarriego.png"/>
+    </div>
+  </xpath>
+</template>
+
+
+<!-- TEMPLATE BANARIEGO DE PAGINA DE NOSOTROS -->
+<template id="bana_nosotros" name="Nosotros Banariego"> 
+
+      <section class="oe_img_bg pt96 pb88 fade-up oe_custom_bg aos-init" data-name="Title" style="background-image: url(&quot;/h4o_banariego/static/src/img/bg_banner_nosotros.jpg&quot;); background-position: 50.28% 11.6%;" data-aos="fade-up">
+        <div class="container">
+          <div class="row s_nb_column_fixed">
+            <div class="col-lg-12 s_title pb0" style="text-align: center;">
+              <h4 class="te_s_title_default" data_aos_ept="s_title_default">
+                <font style="color: rgb(255, 255, 255); font-size: 50px;">NOSOTROS</font>
+              </h4>
+            </div>
+          </div>
+        </div>
+      </section>
+
+
+      <div class="separate"></div>
+
+<!-- section-redes-float -->
+  <div class="section_float">
+    <div class="social_float">
+      <ul>
+        <li><a href="#" class="btn_social_float icon_youtube" target="_blank" title="Youtube"/></li>
+        <li><a href="https://www.instagram.com/banariego_cia_ltda/?fbclid=IwAR2pzfnM-NY4fzkZT5Ik9yKnK_38hLl9NZYkqWET8ahNUXPP0ruxwH0r5UI" class="btn_social_float icon_insta" target="_blank" title="Instagram"/></li>
+        <li><a href="https://www.facebook.com/banariego" class="btn_social_float icon_face" target="_blank" title="Facebook"/></li>
+        <li><span>-------------</span></li>
+        <li><p>SIGUENOS</p></li>
+      </ul>
+    </div>
+  </div>
+<!-- section-redes-float -->
+
+
+      <section class="s_text_block" data-name="Text block">
+        <div class="container">
+          <div class="row">
+            <div class="pb32 col-lg-8 offset-lg-2 pt60">
+              <p class="lead title_about" style="font-size: 36px; text-align: center;">
+                <font>Somos una compañia</font>
+              </p>
+              <p class="lead title_about_black" style="font-size: 36px; text-align: center;">
+                <font>líder al servicio del agricultor</font>
+              </p>
+              <p class="lead title_about" style="font-size: 36px; text-align: center;">
+                <font>Banariego Cía. Ltda.</font>
+              </p>
+              <p class="lead">
+                <font>
+                  <br/>
+                </font>
+              </p>
+              <p class="lead" style="text-align: center;">Todo lo que usted necesita para su sistema de riego, lo tiene BANARIEGO. Somos una empresa ecuatoriana con 30 años de experiencia. Nos especializamos en proveer una amplia gama de productos como tubos, mangueras, accesorios y maquinarias; así como servicios de asesoría técnica, instalación y soporte. Todos estos orientados a proyectos de riego agrícola manuales y automatizados, pozos, drenajes, conducción de agua y demás aplicaciones.<br/></p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+
+
+    <div class="bg_nosotros">
+      <section class="fade-right aos-init aos-animate" data-name="Picture" data-aos="fade-right">
+          <div id="myCarousel1626289017576" class="s_carousel carousel s_carousel_default" data-interval="10000" data-name="Full screen 3" data-aos="s_carousel_default">
+            <ol class="carousel-indicators d-none">
+              <li data-target="#myCarousel1626289017576" data-slide-to="0" class="active"/>
+            </ol>
+            <div class="carousel-inner">
+              <div class="carousel-item te_full_screen3 active" style="min-height: 689.547px;">
+                <img class="img img-responsive img-fluid d-block mx-auto" alt="Clarico-Slider Style 3" src="/h4o_banariego/static/src/img/bg_img_abouts.jpg" data-original-title="" title="" aria-describedby="tooltip63124"/>
+              </div>
+              <div class="carousel-control-prev d-none" data-target="#myCarousel1626289017576" data-slide="prev" role="img" aria-label="Previous" title="Previous">
+                <span class="carousel-control-prev-icon"/>
+                <span class="sr-only o_default_snippet_text">Previous</span>
+              </div>
+              <div class="carousel-control-next d-none" data-target="#myCarousel1626289017576" data-slide="next" role="img" aria-label="Next" title="Next">
+                <span class="carousel-control-next-icon"/>
+                <span class="sr-only o_default_snippet_text">Next</span>
+              </div>
+            </div>
+          </div>
+          <div class="text_about col-lg-8 offset-lg-2">
+            <p style="text-align: left; font-size: 24px;" ><b>Instalaciones Matriz</b></p>
+            <p style="text-align: left;">Equipo de colaboradores comprometidos, al servicio del sector agricultor.</p>
+          </div>
+      </section>
+<!-- mision y vision -->
+      <section class="container-fluid" style="" data-name="Style 2">
+        <section class="container pb48 pt48">
+          <div class="row pt32 pb32">
+            <div class="col-md-6 col-sm-6 te_4_col_icon col-lg-4 offset-lg-2">
+              <section class="px-lg-4 te_4_col_section">
+                <div class="mt-3 te_feature_content">
+                  <a href="#" class="te_features_link o_default_snippet_text" style="color: rgb(255, 255, 255);">VISIÓN</a>
+                  <p class="te_4_col_discreption mt8 o_default_snippet_text" style="color: rgb(255, 255, 255);">Ser la compañia lider en servir con excelencia, humildad, amor y sonrisa.</p>
+                </div>
+              </section>
+            </div>
+            <div class="col-md-6 col-sm-6 te_4_col_icon col-lg-4">
+              <section class="px-lg-4 te_4_col_section">
+                <div class="mt-3 te_feature_content">
+                  <a href="#" class="te_features_link o_default_snippet_text" style="color: rgb(255, 255, 255);">MISIÓN</a>
+                  <p class="te_4_col_discreption mt8 o_default_snippet_text" style="color: rgb(255, 255, 255);">Nuestro compromiso es servir al agricultor, en especial al más pequeño.</p>
+                </div>
+              </section>
+            </div>
+          </div>
+        </section>
+      </section>
+<!-- mision y vision -->
+    </div>
+
+
+    <!-- <div class="bg_nosotros">
+      <div class="oe_structure bg_ima_about" data-name="Style 2"> 
+        <section class="s_picture fade-right aos-init aos-animate" data-name="Picture" data-aos="fade-right">
+          <div class="container">
+            <div class="row s_nb_column_fixed">
+              <div class="col-lg-8 offset-lg-2">
+                <figure class="figure t_img_hover_1 te_img_effect1">
+                  <img src="/h4o_banariego/static/src/img/pic_abouts.jpg" 
+                  class="img-fluid rounded" alt="about-picture" data-original-title="" title="" aria-describedby="tooltip217269"/>
+                </figure>
+              </div>
+              <div class="col-lg-8 offset-lg-2">
+                <p style="text-align: left; font-size: 24px;" ><b>Instalaciones Matriz</b></p>
+                <p style="text-align: left;">Equipo de colaboradores comprometidos, al servicio del sector agricultor.</p>
+              </div>
+            </div>
+          </div>
+        </section>
+      </div> -->
+
+
+
+
+<!-- linea separador -->
+    <div class="line_separator"> <section class="line"></section> </div>
+<!-- linea separador -->
+
+
+<!-- SECCION FOOTER 3BLOCK -->
+    <section class="tree_block pb32 pt32" data-name="Style 1">
+        <div class="container te_max_width_3_blocks">
+          <div class="row">
+            <section class="col-md-4 px-lg-4 te_menu_flip_box">
+              <div class="card">
+                <section class="te_service_icon te_menu_flip_box_inner pb48">
+                  <span class="te_three_blocks_icon rounded-circle text-center te_span_icon_block">
+                    <span class="fa align-middle fa-3x te_icon_styling fa-map-marker" data-original-title="" title="" aria-describedby="tooltip459743"></span>
+                  </span>
+                </section>
+                <section class="text-center pt-4 card-body">
+                  <section>
+                    <h4 class="te_three_blocks_heading m-4">
+                      <b>Ubícanos</b>
+                    </h4>
+                  </section>
+                  <section>
+                    <p class="p-4 pt0 te_three_blocks_content">Matriz, El Triunfo Prov. del Guayas Av. 8 de Abril # 200 y Angel Arce, junto a Almacenes Tía.</p>
+                  </section>
+                </section>
+              </div>
+            </section>
+            <section class="col-md-4 px-lg-4 te_menu_flip_box">
+              <div class="card">
+                <section class="te_service_icon te_menu_flip_box_inner pb48">
+                  <span class="te_three_blocks_icon rounded-circle text-center te_span_icon_block">
+                    <span class="fa align-middle fa-3x te_icon_styling fa-envelope-o" data-original-title="" title="" aria-describedby="tooltip447015"></span>
+                  </span>
+                </section>
+                <section class="text-center pt-4 card-body">
+                  <section>
+                    <h4 class="te_three_blocks_heading m-4">
+                      <b>Email</b>
+                    </h4>
+                  </section>
+                  <section>
+                    <p class="p-4 pt0 te_three_blocks_content">ventas@banariego.com callcenter@banariego.com coordinaciontaller@banariego.com</p>
+                  </section>
+                </section>
+              </div>
+            </section>
+            <section class="col-md-4 px-lg-4 te_menu_flip_box">
+              <div class="card">
+                <section class="te_service_icon te_menu_flip_box_inner pb48">
+                  <span class="te_three_blocks_icon rounded-circle text-center te_span_icon_block">
+                    <span class="fa align-middle fa-3x te_icon_styling fa-phone"></span>
+                  </span>
+                </section>
+                <section class="text-center pt-4 card-body">
+                  <section>
+                    <h4 class="te_three_blocks_heading m-4">
+                      <b>Teléfono</b>
+                    </h4>
+                  </section>
+                  <section>
+                    <p class="p-4 pt0 te_three_blocks_content">042010190 / 042010072 / 042010726 Ext.: 100 - 101 - 102 - 103</p>
+                  </section>
+                </section>
+              </div>
+            </section>
+          </div>
+        </div>
+    </section>
+<!-- SECCION FOOTER 3BLOCK -->
+</template> 
+
+</odoo>

@@ -14,9 +14,24 @@ body {
     .te_header_navbar #top_menu_collapse #top_menu > li > a.nav-link {
         color: #e1e1df;
     }
+    .banner_home_bg{
+        position: relative;
+        &::after{
+            content: ".";
+            position: absolute;
+            background: url("../img/aspersor_home.png") center center no-repeat !important;
+            width: 318px;
+            height: 100%;
+            right: 0;
+            top: 62%;
+        }
+    }
+    .o_background_video {
+        padding-bottom: 65px;
+    }
     iframe#o_bg_video_iframe_2 {
-        width: 64% !important;
-        height: 60% !important;
+        width: 60% !important;
+        height: 61% !important;
         left: 18% !important;
         top: 20% !important;
     }

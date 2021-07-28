@@ -19,7 +19,7 @@
     'version': '1.6',
 
     # any module necessary for this one to work correctly
-    'depends': ['base','website','theme_clarico_vega_2'],
+    'depends': ['base','website','theme_clarico_vega'],
 
     # always loaded
     'data': [

@@ -3,8 +3,7 @@
     'name': "h4o_banariego",
 
     'summary': """
-        Short (1 phrase/line) summary of the module's purpose, used as
-        subtitle on modules listing or apps.openerp.com""",
+        Modulo con tenedor de las vistas para el sitio Web Banarriego""",
 
     'description': """
         paquete de visuales para sitio web banarriego

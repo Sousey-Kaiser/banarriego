@@ -352,8 +352,8 @@
         <div class="container">
           <div class="row d-flex align-items-stretch aos-init" data-aos="align-items-stretch">
             <div class="col-lg-4 col-md-4 s_col_no_bgcolor te_col_ind">
-              <div class="te_image_overflow t_img_hover_1 ">
-                <img class="card-img-top img img-responsive te_feature_image" src="/h4o_banariego/static/src/img/map_guayas.jpg" alt="Clarico-3 Columns Style 5" data-original-title="" title="" aria-describedby="tooltip277687"/>
+              <div class="te_image_overflow t_img_hover_1 " style="border-radius: 15px;">
+                <img class="card-img-top img img-responsive te_feature_image" src="/h4o_banariego/static/src/img/region_costanorte.jpg" alt="Clarico-3 Columns Style 5" data-original-title="" title="" aria-describedby="tooltip277687"/>
               </div>
               <div class="te_center_position">
                 <section class="text-center pb8 pt16 te_button_position">
@@ -365,8 +365,8 @@
               </div>
             </div>
             <div class="col-lg-4 col-md-4 s_col_no_bgcolor te_col_ind">
-              <div class="te_image_overflow t_img_hover_1 ">
-                <img class="card-img-top img img-responsive te_feature_image" src="/h4o_banariego/static/src/img/map_cuenca.jpg" alt="Clarico-3 Columns Style 5"/>
+              <div class="te_image_overflow t_img_hover_1 " style="border-radius: 15px;">
+                <img class="card-img-top img img-responsive te_feature_image" src="/h4o_banariego/static/src/img/region_costasur.jpg" alt="Clarico-3 Columns Style 5"/>
               </div>
               <div class="te_center_position">
                 <section class="text-center pb8 pt16 te_button_position">
@@ -378,8 +378,8 @@
               </div>
             </div>
             <div class="col-lg-4 col-md-4 s_col_no_bgcolor te_col_ind">
-              <div class="te_image_overflow t_img_hover_1 ">
-                <img class="card-img-top img img-responsive te_feature_image" src="/h4o_banariego/static/src/img/map_azogues.jpg" alt="Clarico-3 Columns Style 5"/>
+              <div class="te_image_overflow t_img_hover_1 " style="border-radius: 15px;">
+                <img class="card-img-top img img-responsive te_feature_image" src="/h4o_banariego/static/src/img/region_sierra.jpg" alt="Clarico-3 Columns Style 5"/>
               </div>
               <div class="te_center_position">
                 <section class="text-center pb8 pt16 te_button_position">

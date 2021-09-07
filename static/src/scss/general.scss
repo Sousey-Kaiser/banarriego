@@ -31,7 +31,7 @@ body {
         color: #f7f7f7 !important;
     }
 
-    .te_header_navbar > .container{ background-color: #ffffff00;}
+    .te_header_navbar > .container{ background-color: #ffffff00;  box-shadow: none;}
 
     .te_header_navbar .te_header_right_icon a.te_search_link .fa-search {color: #ffffff;}
 
@@ -91,6 +91,9 @@ body {
     display: none !important;
 }
 
+.te_header_navbar .te_header_right_icon .head_11_rest_icons .px-1.te_pricelist {
+    display: none;
+}
 
 
 nav.navbar.navbar-expand-md.te_header_navbar.te_header_navbar_10.start-sticky{

@@ -17,9 +17,9 @@
 
 <!-- seccion-banner -->
           <div class="oe_structure banner_home_bg" data-name="Style 3" data-editor-message="DRAG BUILDING BLOCKS HERE">
-            <section data-name="Banner Video" class="oe_img_bg oe_custom_bg o_background_video" style="background-image: url(&quot;/h4o_banariego/static/src/img/bg_header_home.jpg&quot;);" data-bg-video-src="/h4o_banariego/static/src/img/HOME_BANARIEGO.mp4">
+            <section data-name="Banner Video" class="oe_img_bg oe_custom_bg o_background_video" style="background-image: url(&quot;/h4o_banariego/static/src/img/bg_header_home.jpg&quot;);">
               <video autoplay="" muted="" loop="" width="60%" height="80%" style="width: 60%;height: 80%;left: 20%;top: 10%;">
-                <source src="/clarico_vega_demo_data/static/src/video/homepagevideo.mp4" type="video/mp4"></source>
+                <!-- <source src="/clarico_vega_demo_data/static/src/video/homepagevideo.mp4" type="video/mp4"></source> -->
                 <!--<source src="/clarico_vega_demo_data/static/src/video/homepagevideo.webm" type="video/webm"></source>-->
                 <!--<source src="/clarico_vega_demo_data/static/src/video/homepagevideo.ogg" type="video/ogg"></source>-->
               </video>

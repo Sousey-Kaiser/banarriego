@@ -1,14 +1,16 @@
 .homepage{
     footer#bottom{
-        background: url("../img/bg_footer.jpg") center bottom no-repeat !important;
-        padding: 197px 0 0 0;
+        background: #5d8d3a !important;
+        //background: url("../img/bg_footer.jpg") center bottom no-repeat !important;
+        padding: 0 0 0 0;
     }
 }
 
 
 footer#bottom {
-    background: url("../img/bg_footer.jpg") center center no-repeat !important;
-    padding: 97px 0;
+    background: #5d8d3a !important;
+    //background: url("../img/bg_footer.jpg") center center no-repeat !important;
+    padding: 0 0;
 }
 
 #footer .te_footer_info_text li:first-child {
@@ -17,7 +19,7 @@ footer#bottom {
 
 
 #footer .te_footer_info_text li {
-    border-top: 1px solid #2d4820 !important;
+    border-top: 1px solid #ffffff !important;
 }
 
 #footer .te_footer_info_ept li{
@@ -34,4 +36,8 @@ footer#bottom {
             color: white;
         }
     }
+}
+
+.o_footer {
+    color: #f7f7f7 !important;
 }

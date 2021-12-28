@@ -1,5 +1,7 @@
 body {
     background-color: #ffffff;
+
+    h1, h2, h3, h4, h5, h6,{font-family: "Oblik-Bold" !important;}
 }
 
 header .te_header_before_overlay {
@@ -25,7 +27,7 @@ body #wrapwrap > header .navbar-expand-md {background: white !important;}
 .homepage{
 
     .te_header_before_overlay {
-        padding-top: 30px !important;
+        padding-top: 0px !important;
     }
 
     .te_header_navbar > .container{ min-height: 68px;}

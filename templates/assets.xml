@@ -2,6 +2,7 @@
 <odoo>
 <template id="assets_banariego" inherit_id="website.assets_frontend">
 <xpath expr="link[last()]" position="after">
+<link rel="stylesheet" type="text/scss" href="/h4o_banariego/static/src/scss/bana_fonts.scss" />
 <link rel="stylesheet" type="text/scss" href="/h4o_banariego/static/src/scss/general.scss" />
 <link rel="stylesheet" type="text/scss" href="/h4o_banariego/static/src/scss/footer.scss" />
 <!-- <link rel="stylesheet" type="text/css" href="/h4o_banariego/static/src/css/archivo.scss" />

@@ -3,7 +3,7 @@
     'name': "h4o_banariego",
 
     'summary': """
-        Modulo con tenedor de las vistas para el sitio Web Banarriego""",
+        Modulo Visual Actualizado para Banarriego""",
 
     'description': """
         paquete de visuales para sitio web banarriego

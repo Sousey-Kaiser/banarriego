@@ -1,0 +1,36 @@
+
+// @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700;800&display=swap');
+
+// @font-face{
+// 	font-family: 'Open Sans';
+// 	/*font-weight: 300; ligth*/
+// 	/*font-weight: 400; regular*/
+// 	/*font-weight: 500; Semi-bold*/
+// 	/*font-weight: 700; blod*/
+// 	/*font-weight: 900; extra-bold*/
+// }
+
+ @font-face {
+     font-family: 'oblikbold';
+     src: url('../oblik-bold-webfont.woff2') format('woff2'),
+          url('../oblik-bold-webfont.woff') format('woff');
+     font-weight: normal;
+     font-style: normal;
+
+ }
+
+ @font-face {
+     font-family: 'oblikbold_italic';
+     src: url('../oblikbolditalic-webfont.woff2') format('woff2'),
+          url('../oblikbolditalic-webfont.woff') format('woff');
+     font-weight: normal;
+     font-style: normal;
+ } 
+
+@font-face {
+    font-family: 'nexa_rust_sansblack';
+    src: url('../nexarustsans-black-webfont.woff2') format('woff2'),
+         url('../nexarustsans-black-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}

@@ -6,7 +6,7 @@
         Modulo Visual Actualizado para Banarriego""",
 
     'description': """
-        paquete de visuales para sitio web banarriego
+        paquete de modificaciones visuales para sitio web banarriego
     """,
 
     'author': "H4O-Studio",
@@ -16,7 +16,7 @@
     # Check https://github.com/odoo/odoo/blob/13.0/odoo/addons/base/data/ir_module_category_data.xml
     # for the full list
     'category': 'Modulos_Visuales',
-    'version': '1.6',
+    'version': '1.7',
 
     # any module necessary for this one to work correctly
     'depends': ['base','website','theme_clarico_vega'],
